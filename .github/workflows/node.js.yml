@@ -23,7 +23,7 @@ jobs:
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v1
       env:
-        DB_STRING:  mongodb://ospina:hesoyam199@ds149258.mlab.com:49258/testez
+        DB_STRING:  ${{ secrets.DB_STRING }}
       with:
         node-version: ${{ matrix.node-version }}
     - run: npm ci
