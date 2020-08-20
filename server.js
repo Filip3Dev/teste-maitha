@@ -16,7 +16,7 @@ mongoose.connect(databaseConfig.mongoURL, {
   useUnifiedTopology: true,
 });
 
-const Contact = require('./models/Contact');
+require('./models/Contact');
 
 /**
  * Pass to our server instance middlewares

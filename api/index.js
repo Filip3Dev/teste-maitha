@@ -7,8 +7,6 @@ const Router = require('koa-router');
 const { apiVersion } = require('../config').server;
 const baseName = path.basename(__filename);
 
-const controlerContact = require('./contact/contact.controller');
-
 exports.applyApiMiddleware = function(app) {
   const router = new Router({
     prefix: `/api/${apiVersion}`,
