@@ -16,7 +16,6 @@ mongoose.connect(databaseConfig.mongoURL, {
   useUnifiedTopology: true,
 });
 
-const Link = require('./models/Link');
 const Contact = require('./models/Contact');
 
 /**

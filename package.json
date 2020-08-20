@@ -1,6 +1,6 @@
 {
-  "name": "api-shortener",
-  "version": "0.1.0",
+  "name": "api-teste-maitha",
+  "version": "0.1.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
     "format": "prettier --write \"**/*.+(js|yml|yaml|json)\"",
     "lint": "eslint .",
     "start": "node index.js",
-    "test": "NODE_ENV=test jest --watchAll"
+    "test": "NODE_ENV=test jest"
   },
   "devDependencies": {
     "eslint": "5.16.0",
